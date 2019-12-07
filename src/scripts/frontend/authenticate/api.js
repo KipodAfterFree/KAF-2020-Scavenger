@@ -27,7 +27,7 @@ function authentication(callback = last_callback) {
             if (success) {
                 page("authenticated");
                 if (callback !== null) {
-                    callback();
+                    callback(result);
                 }
             } else {
                 show("authenticate-inputs");

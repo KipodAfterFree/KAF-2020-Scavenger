@@ -217,7 +217,7 @@ function authenticate_session($session)
     if ($sessions !== null) {
         foreach ($sessions as $hashed => $id) {
             if (authenticate_hash($session, $id) === $hashed) {
-                return [true, null, $id];
+                return [true, $id, $id];
             }
         }
         return [false, "Invalid session", null];
