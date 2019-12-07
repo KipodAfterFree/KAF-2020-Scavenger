@@ -7,7 +7,7 @@
   "security": {
     "hash": {
       "algorithm": "sha256",
-      "onionLayers": 1024,
+      "onionLayers": 10,
       "saltLength": 512
     },
     "passwordLength": 8,
