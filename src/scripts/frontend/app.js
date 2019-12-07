@@ -11,7 +11,7 @@ function save() {
         text: get("invoice-text").value
     }, (success, result) => {
         if (success)
-            get("invoice-text").value = result;
+            popup("Saved.", 2000, "#668866");
         else
             popup(result, 2000, "#886666");
     }, authenticate());
