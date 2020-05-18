@@ -1,10 +1,4 @@
-# Accounting101
-
-Accounting101 is an information security challenge in the Web category, and was presented to participants of [KAF Rolling](https://kaf.sh)
-
-## Challenge story
-
-The KipodLand administration requested this software company to build them a new accounting software. Our insiders got hold of the release-candidate secret version. We thought you might be able to spot 0days in there, which we will use to get KipodLand residents' secret information.
+# Scavenger
 
 ## Challenge exploit
 
@@ -16,14 +10,14 @@ Create a user with the name of `../../invoices/USERID-thing.php`, then on your U
 
 ## Building and installing
 
-[Clone](https://github.com/NadavTasher/2020-Accounting101/archive/master.zip) the repository, then type the following command to build the container:
+[Clone](https://github.com/NadavTasher/Bsides-2020-Scavenger/archive/master.zip) the repository, then type the following command to build the container:
 ```bash
-docker build . -t accounting101
+docker build . -t scavenger
 ```
 
 To run the challenge, execute the following command:
 ```bash
-docker run --rm -d -p 1000:80 accounting101
+docker run --rm -d -p 1000:80 scavenger
 ```
 
 ## Usage
