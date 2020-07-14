@@ -1,7 +1,7 @@
 {
   "name": "MonyKount",
   "short_name": "MonyKount",
-  "description": "Easy accounting software for everyone!",
+  "description": "Simple accounting solution.",
   "start_url": "../index.html",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",

@@ -1,0 +1,14 @@
+body {
+    background-color: #FFFFFF;
+    max-width: 460px;
+}
+
+/* App Style */
+
+#title{
+    font-size: 4vh;
+}
+
+#ad {
+    border: green solid 2px;
+}

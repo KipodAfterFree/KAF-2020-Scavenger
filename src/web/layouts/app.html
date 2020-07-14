@@ -1,0 +1,32 @@
+<!--
+
+By viewing the sources of the application you are trespassing!
+
+Advertisement:
+Sick of conventional paperwork every month? Sick of paying you employees?
+Say no more!
+MonyKount is the new easy accounting program you have always wished you had!
+
+Covered by the KloZedSorz license, its security is backed by the law, setting a $100 bounty on anyone trying to take look at the code.
+
+Features:
+Admin-centered design: "Admin is my king"
+Best-in-class security: "Base64 over JSON cypher"
+
+Get your own at monykount.example.org for just $133,337/month.
+-->
+<p id="title">MonyKount Freemium</p>
+<p id="ad">Ad: Get your own at monykount.example.org for just $133,337/month!</p>
+<input id="invoice-name" placeholder="Invoice name"/>
+<div column>
+    <div id="home" column>
+        <input id="invoice-text" placeholder="Invoice value" type="number"/>
+        <div row>
+            <button onclick="MonyKount.syncInvoice();">Save invoice</button>
+            <button onclick="MonyKount.loadInvoice();">Open invoice</button>
+        </div>
+    </div>
+    <div id="admin" column>
+        <button onclick="MonyKount.createInvoice();">Create invoice</button>
+    </div>
+</div>
